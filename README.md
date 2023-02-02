@@ -1,13 +1,31 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Bem vindo ao repositório Recipes App
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Descrição do projeto:
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Neste projeto foi desenvolvido um app de receitas, utilizando o que há de mais moderno dentro do ecossistema React: Hooks e Context API!
+
+O layout tem como foco dispositivos móveis, sendo utilizada a resolução de tela de 360 x 640 pixels
+
+Na aplicação o usuário é capaz de:
+
+- Ver receitas de comidas e bebidas
+- Buscar por nome, primeira letra, ou ingrediente
+- Filtrar
+- Favoritar
+- Salvar receitas já realizadas
+- Acompanhar o progresso de preparação de receitas
+
+## Habilidades utilizadas no desenvolvimento:
+
+- Context API do React para gerenciar estado
+- React Hook useState
+- React Hook useContext
+- React Hook useEffect
+- Criação de Hooks customizados
+
+## Informações da API utilizada
+
+Para realizar o projeto foram utilizados os seguintes endpoints:
+
+- https://www.themealdb.com/api.php
+- https://www.thecocktaildb.com/api.php
